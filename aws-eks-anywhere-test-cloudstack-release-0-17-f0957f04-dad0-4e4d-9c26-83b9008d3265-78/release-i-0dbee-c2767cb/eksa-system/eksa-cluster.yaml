@@ -36,7 +36,7 @@ spec:
   managementCluster:
     name: release-i-0dbee-c2767cb
   workerNodeGroupConfigurations:
-  - count: 1
+  - count: 3
     machineGroupRef:
       kind: CloudStackMachineConfig
       name: release-i-0dbee-c2767cb
